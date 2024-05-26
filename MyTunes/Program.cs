@@ -35,6 +35,11 @@ app.UseAuthorization();
 app.UseSession();
 
 app.MapControllerRoute(
+    name: "profile",
+    pattern: "profile/{action=Profile}/{id?}",
+    defaults: new { controller = "Profile", action = "Profile" });
+
+app.MapControllerRoute(
     name: "default",
     pattern: "{controller=Login}/{action=login}/{id?}");
 app.UseStatusCodePagesWithReExecute("/");
