@@ -1,0 +1,10 @@
+@if (!ViewData.ContainsKey("username") || ViewData["username"] == null)
+{
+<button onclick="location.href='/login'">Login</button>
+<button onclick="location.href='/register'">Register</button><br />
+}
+
+@if (ViewData.ContainsKey("username") && ViewData["username"] != null)
+{
+    <h1>You' re logged in to your account: @ViewData["username"]</h1>
+}

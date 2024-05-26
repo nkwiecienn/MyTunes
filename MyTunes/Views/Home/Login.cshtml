@@ -1,0 +1,9 @@
+<h1>Login</h1>
+<form method="post" style="text-align: center;">
+    <label for="username" style="display: inline-block; width: 100px;">Login:</label>
+    <input type="text" id="username" name="username" /> <br /> <br />
+    <label for="password" style="display: inline-block; width: 100px;">Password:</label>
+    <input type="password" id="password" name="password" /> <br /> <br />
+    <input type="submit" value="Submit" asp-page-handler="Submit" /><br />
+    <div class="message">@ViewData["Message"]</div>
+</form>

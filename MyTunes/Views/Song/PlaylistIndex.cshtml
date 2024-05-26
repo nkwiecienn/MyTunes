@@ -1,0 +1,62 @@
+@model IEnumerable<MyTunes.Models.Song>
+
+@{
+    ViewData["Title"] = "Index";
+    var recommendedSongs = ViewBag.Recommended as List<MyTunes.Models.Song>;
+}
+
+<h1>Songs</h1>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Name)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Name) 
+            </td>
+            <td>
+                <a asp-action="RemoveFromPlaylist" asp-route-songId="@item.SongId" asp-route-playlistId="@ViewBag.PlaylistId">Remove from Playlist</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
+
+<h2>Recommended Songs</h2>
+@if (recommendedSongs != null && recommendedSongs.Any())
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.Name)
+                </th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+    @foreach (var song in recommendedSongs) {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => song.Name) 
+                </td>
+                <td>
+                    <a href="@Url.Action("AddToPlaylist", "Song", new { id = song.SongId })">Add To Playlists</a> |
+                    <a asp-action="AddToFavorites" asp-route-id="@song.SongId">Add To Favorites</a>
+                </td>
+            </tr>
+    }
+        </tbody>
+    </table>
+}
+else
+{
+    <p>No recommended songs found.</p>
+}

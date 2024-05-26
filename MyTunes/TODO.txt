@@ -1,0 +1,12 @@
+TODO Admin:
+- dodanie admina
+- dodawanie/usuwanie artystów
+- dodawanie/usuwanie albumów
+- dodawanie/usuwanie piosenek
+- usuwanie użytkowników
+
+REST API????????????????????????
+
+Ekstra TODO:
+- podzielić klasy z bazy danych na foldery żeby nie było takiego bałaganu
+- obsługa błędów xDDD

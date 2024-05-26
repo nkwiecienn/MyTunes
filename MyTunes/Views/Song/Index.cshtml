@@ -1,0 +1,45 @@
+@model IEnumerable<MyTunes.Models.Song>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Songs</h1>
+@if(ViewData.ContainsKey("username") && ViewData["username"].ToString() == "admin") {
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+}  
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Name)
+            </th>
+            @if(ViewData.ContainsKey("username") && ViewData["username"].ToString() == "admin") {
+            <th></th>
+            }
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Name) 
+            </td>
+            @if(ViewData.ContainsKey("username") && ViewData["username"].ToString() == "admin") {
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.SongId">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.SongId">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.SongId">Delete</a>
+            </td>
+            }
+            <td>
+                <a href="@Url.Action("AddToPlaylist", "Song", new { id = item.SongId })">Add To Playlists</a> |
+                <a asp-action="AddToFavorites" asp-route-id="@item.SongId">Add To Favorites</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

@@ -1,0 +1,23 @@
+@model MyTunes.ViewModels.AddSongToPlaylistViewModel
+
+@{
+    ViewData["Title"] = "Add Song to Playlist";
+}
+
+<h2>@ViewData["Title"]</h2>
+
+<h4>Song ID: @Model.SongId</h4>
+
+<form asp-action="AddToPlaylist">
+    <div class="form-group">
+        <label asp-for="SelectedPlaylistId" class="control-label"></label>
+        <select asp-for="SelectedPlaylistId" class="form-control" asp-items="Model.Playlists">
+            <option value="">-- Select Playlist --</option>
+        </select>
+        <span asp-validation-for="SelectedPlaylistId" class="text-danger"></span>
+    </div>
+    <input type="hidden" asp-for="SongId" />
+    <div class="form-group">
+        <input type="submit" value="Add to Playlist" class="btn btn-primary" />
+    </div>
+</form>
