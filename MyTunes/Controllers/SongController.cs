@@ -210,9 +210,16 @@ namespace MyTunes.Controllers
             return RedirectToAction("Index", "Artist");
         }
 
-        private void PopulatePlaylistsDropDownList(object selectedPlaylist = null)
+        private async void PopulatePlaylistsDropDownList(object selectedPlaylist = null)
         {
+            int? userId = HttpContext.Session.GetInt32("UserID");
+
+            var user = await _context.User
+                .Include(u => u.Favorites)
+                .FirstOrDefaultAsync(u => u.UserId == userId.Value);
+
             var playlists = from p in _context.Playlist
+                                where p.User == user
                                 orderby p.Name
                                 select p;
             var res = playlists.AsNoTracking();
@@ -235,7 +242,13 @@ namespace MyTunes.Controllers
                 return NotFound();
             }
 
-            var playlists = await _context.Playlist.ToListAsync();
+            int? userId = HttpContext.Session.GetInt32("UserID");
+
+            var user = await _context.User
+                .Include(u => u.Favorites)
+                .FirstOrDefaultAsync(u => u.UserId == userId.Value);
+
+            var playlists = await _context.Playlist.Where(p => p.User == user).ToListAsync();
             var viewModel = new AddSongToPlaylistViewModel
             {
                 SongId = song.SongId,
@@ -273,6 +286,30 @@ namespace MyTunes.Controllers
                 await _context.SaveChangesAsync();
 
                 return RedirectToAction("Index", "Playlist");
+        }
+
+
+        public async Task<IActionResult> AddFromRecommended(int playlistId, int songId)
+        {
+                var playlist = await _context.Playlist
+                    .Include(p => p.Songs)
+                    .FirstOrDefaultAsync(p => p.PlaylistId == playlistId);
+
+                if (playlist == null)
+                {
+                    return NotFound();
+                }
+
+                var song = await _context.Song.FindAsync(songId);
+                if (song == null)
+                {
+                    return NotFound();
+                }
+
+                playlist.Songs.Add(song);
+                await _context.SaveChangesAsync();
+
+                return RedirectToAction("PlaylistIndex", "Song", new { playlistId });
         }
 
 //-----------------------------------------------------------------------------------
