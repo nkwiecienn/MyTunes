@@ -48,7 +48,7 @@
                     @Html.DisplayFor(modelItem => song.Name) 
                 </td>
                 <td>
-                    <a href="@Url.Action("AddToPlaylist", "Song", new { id = song.SongId })">Add To Playlists</a> |
+                    <a asp-action="AddFromRecommended" asp-route-playlistId="@ViewBag.PlaylistId" asp-route-songId="@song.SongId">Add To Playlist</a> |
                     <a asp-action="AddToFavorites" asp-route-id="@song.SongId">Add To Favorites</a>
                 </td>
             </tr>
