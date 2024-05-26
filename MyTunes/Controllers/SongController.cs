@@ -20,6 +20,28 @@ namespace MyTunes.Controllers
             _context = context;
         }
 
+        public List<Song> Top(MyTunesContext _context)
+        {
+            var songsQuery = from s in _context.Song
+                             .Include(s => s.Album)
+                             .ThenInclude(a => a.Artist)
+                             .Include(s => s.Favorites)
+                             orderby s.Favorites.Count descending
+                             select s;
+
+            var songs = songsQuery.ToList();
+
+            return songs;
+        }
+
+        public async Task<IActionResult> MostLiked()
+        {
+            var topSongs = Top(_context);
+
+            ViewData["Username"] = HttpContext.Session.GetString("Username");
+            return View(topSongs);
+        }
+
         [Route("/Song/logout")]
         public IActionResult Logout()
         {

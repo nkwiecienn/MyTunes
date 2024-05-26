@@ -1,0 +1,27 @@
+@model IEnumerable<MyTunes.Models.Song>
+
+@{
+    ViewData["Title"] = "Most-liked songs";
+}
+
+<h1>@ViewData["Title"]</h1>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Song name</th>
+            <th>Artis</th>
+            <th>Number of likes</th>
+        </tr>
+    </thead>
+    <tbody>
+    @foreach (var song in Model)
+    {
+        <tr>
+            <td>@Html.DisplayFor(modelItem => song.Name)</td>
+            <td>@Html.DisplayFor(modelItem => song.Album.Artist.Name)</td>
+            <td>@Html.DisplayFor(modelItem => song.Favorites.Count)</td>
+        </tr>
+    }
+    </tbody>
+</table>

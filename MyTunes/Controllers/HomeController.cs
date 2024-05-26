@@ -120,12 +120,12 @@ public class HomeController : Controller
             ViewData["Message"] = "Passwords do not match";
             return View();
         }
-        
-        // if (!_context.User.Where(u => u.Username == username).IsNullOrEmpty())
-        // {
-        //     ViewData["Message"] = "Username already exists";
-        //     return View();
-        // }
+
+        if (_context.User.Any(u => u.Username == username))
+        {
+            ViewData["Message"] = "Username already exists";
+            return View();
+        }
 
         user.Username = username;
         user.Password = MD5Hash(password);

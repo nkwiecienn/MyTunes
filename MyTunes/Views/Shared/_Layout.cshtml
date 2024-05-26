@@ -31,26 +31,32 @@
                         <li class="nav-item">
                             @if(ViewData.ContainsKey("username") && ViewData["username"] != null)
                             {
-                                <a class="nav-link" asp-controller="Artist" asp-action="Index">Search for Music</a>
+                                <a class="nav-link text-dark" asp-controller="Artist" asp-action="Index">Search for Music</a>
                             }
                         </li>
 
                         <li class="nav-item">
                             @if(ViewData.ContainsKey("username") && ViewData["username"] != null)
                             {
-                                <a class="nav-link" asp-controller="Playlist" asp-action="Index">Playlists</a>
+                                <a class="nav-link text-dark" asp-controller="Playlist" asp-action="Index">Playlists</a>
                             }
                         </li>
                         <li class="nav-item">
                             @if(ViewData.ContainsKey("username") && ViewData["username"] != null)
                             {
-                                <a class="nav-link" asp-controller="User" asp-action="Favorite">Favorites</a>
+                                <a class="nav-link text-dark" asp-controller="User" asp-action="Favorite">Favorites</a>
                             }
                         </li>
                         <li class="nav-item">
                             @if(ViewData.ContainsKey("username") && ViewData["username"] != null)
                             {
-                                <a class="nav-link" asp-controller="User" asp-action="Index">Users</a>
+                                <a class="nav-link text-dark" asp-controller="Song" asp-action="MostLiked">Most-liked songs</a>
+                            }
+                        </li>
+                        <li class="nav-item">
+                            @if(ViewData.ContainsKey("username") && ViewData["username"] != null)
+                            {
+                                <a class="nav-link text-dark" asp-controller="User" asp-action="Index">Users</a>
                             }
                         </li>
                           <li class="nav-item" style="margin-left: auto">
