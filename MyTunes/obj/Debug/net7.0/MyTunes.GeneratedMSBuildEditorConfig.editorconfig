@@ -9,161 +9,161 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = MyTunes
 build_property.RootNamespace = MyTunes
-build_property.ProjectDir = C:\Users\Oliwier\vscode\pz2\lab11\MyTunes\MyTunes\
+build_property.ProjectDir = C:\Users\natal\VS Projects\FinalProject\MyTunes\MyTunes\
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\Oliwier\vscode\pz2\lab11\MyTunes\MyTunes
+build_property.MSBuildProjectDirectory = C:\Users\natal\VS Projects\FinalProject\MyTunes\MyTunes
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/Oliwier/vscode/pz2/lab11/MyTunes/MyTunes/Views/Album/Create.cshtml]
+[C:/Users/natal/VS Projects/FinalProject/MyTunes/MyTunes/Views/Album/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWxidW1cQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Oliwier/vscode/pz2/lab11/MyTunes/MyTunes/Views/Album/Delete.cshtml]
+[C:/Users/natal/VS Projects/FinalProject/MyTunes/MyTunes/Views/Album/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWxidW1cRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Oliwier/vscode/pz2/lab11/MyTunes/MyTunes/Views/Album/Details.cshtml]
+[C:/Users/natal/VS Projects/FinalProject/MyTunes/MyTunes/Views/Album/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWxidW1cRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Oliwier/vscode/pz2/lab11/MyTunes/MyTunes/Views/Album/Edit.cshtml]
+[C:/Users/natal/VS Projects/FinalProject/MyTunes/MyTunes/Views/Album/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWxidW1cRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Oliwier/vscode/pz2/lab11/MyTunes/MyTunes/Views/Album/Index.cshtml]
+[C:/Users/natal/VS Projects/FinalProject/MyTunes/MyTunes/Views/Album/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWxidW1cSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Oliwier/vscode/pz2/lab11/MyTunes/MyTunes/Views/Artist/Create.cshtml]
+[C:/Users/natal/VS Projects/FinalProject/MyTunes/MyTunes/Views/Artist/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXJ0aXN0XENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Oliwier/vscode/pz2/lab11/MyTunes/MyTunes/Views/Artist/Delete.cshtml]
+[C:/Users/natal/VS Projects/FinalProject/MyTunes/MyTunes/Views/Artist/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXJ0aXN0XERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Oliwier/vscode/pz2/lab11/MyTunes/MyTunes/Views/Artist/Details.cshtml]
+[C:/Users/natal/VS Projects/FinalProject/MyTunes/MyTunes/Views/Artist/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXJ0aXN0XERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Oliwier/vscode/pz2/lab11/MyTunes/MyTunes/Views/Artist/Edit.cshtml]
+[C:/Users/natal/VS Projects/FinalProject/MyTunes/MyTunes/Views/Artist/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXJ0aXN0XEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Oliwier/vscode/pz2/lab11/MyTunes/MyTunes/Views/Artist/Index.cshtml]
+[C:/Users/natal/VS Projects/FinalProject/MyTunes/MyTunes/Views/Artist/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXJ0aXN0XEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Oliwier/vscode/pz2/lab11/MyTunes/MyTunes/Views/Home/Index.cshtml]
+[C:/Users/natal/VS Projects/FinalProject/MyTunes/MyTunes/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Oliwier/vscode/pz2/lab11/MyTunes/MyTunes/Views/Home/Login.cshtml]
+[C:/Users/natal/VS Projects/FinalProject/MyTunes/MyTunes/Views/Home/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxMb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Oliwier/vscode/pz2/lab11/MyTunes/MyTunes/Views/Home/Privacy.cshtml]
+[C:/Users/natal/VS Projects/FinalProject/MyTunes/MyTunes/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Oliwier/vscode/pz2/lab11/MyTunes/MyTunes/Views/Home/Profile.cshtml]
+[C:/Users/natal/VS Projects/FinalProject/MyTunes/MyTunes/Views/Home/Profile.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcm9maWxlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Oliwier/vscode/pz2/lab11/MyTunes/MyTunes/Views/Home/Register.cshtml]
+[C:/Users/natal/VS Projects/FinalProject/MyTunes/MyTunes/Views/Home/Register.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxSZWdpc3Rlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Oliwier/vscode/pz2/lab11/MyTunes/MyTunes/Views/Playlist/Create.cshtml]
+[C:/Users/natal/VS Projects/FinalProject/MyTunes/MyTunes/Views/Playlist/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGxheWxpc3RcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Oliwier/vscode/pz2/lab11/MyTunes/MyTunes/Views/Playlist/Delete.cshtml]
+[C:/Users/natal/VS Projects/FinalProject/MyTunes/MyTunes/Views/Playlist/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGxheWxpc3RcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Oliwier/vscode/pz2/lab11/MyTunes/MyTunes/Views/Playlist/Details.cshtml]
+[C:/Users/natal/VS Projects/FinalProject/MyTunes/MyTunes/Views/Playlist/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGxheWxpc3RcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Oliwier/vscode/pz2/lab11/MyTunes/MyTunes/Views/Playlist/Edit.cshtml]
+[C:/Users/natal/VS Projects/FinalProject/MyTunes/MyTunes/Views/Playlist/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGxheWxpc3RcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Oliwier/vscode/pz2/lab11/MyTunes/MyTunes/Views/Playlist/Index.cshtml]
+[C:/Users/natal/VS Projects/FinalProject/MyTunes/MyTunes/Views/Playlist/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGxheWxpc3RcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Oliwier/vscode/pz2/lab11/MyTunes/MyTunes/Views/Shared/Error.cshtml]
+[C:/Users/natal/VS Projects/FinalProject/MyTunes/MyTunes/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Oliwier/vscode/pz2/lab11/MyTunes/MyTunes/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/natal/VS Projects/FinalProject/MyTunes/MyTunes/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Oliwier/vscode/pz2/lab11/MyTunes/MyTunes/Views/Song/AddToPlaylist.cshtml]
+[C:/Users/natal/VS Projects/FinalProject/MyTunes/MyTunes/Views/Song/AddToPlaylist.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU29uZ1xBZGRUb1BsYXlsaXN0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Oliwier/vscode/pz2/lab11/MyTunes/MyTunes/Views/Song/Create.cshtml]
+[C:/Users/natal/VS Projects/FinalProject/MyTunes/MyTunes/Views/Song/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU29uZ1xDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Oliwier/vscode/pz2/lab11/MyTunes/MyTunes/Views/Song/Delete.cshtml]
+[C:/Users/natal/VS Projects/FinalProject/MyTunes/MyTunes/Views/Song/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU29uZ1xEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Oliwier/vscode/pz2/lab11/MyTunes/MyTunes/Views/Song/Details.cshtml]
+[C:/Users/natal/VS Projects/FinalProject/MyTunes/MyTunes/Views/Song/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU29uZ1xEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Oliwier/vscode/pz2/lab11/MyTunes/MyTunes/Views/Song/Edit.cshtml]
+[C:/Users/natal/VS Projects/FinalProject/MyTunes/MyTunes/Views/Song/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU29uZ1xFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Oliwier/vscode/pz2/lab11/MyTunes/MyTunes/Views/Song/Index.cshtml]
+[C:/Users/natal/VS Projects/FinalProject/MyTunes/MyTunes/Views/Song/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU29uZ1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Oliwier/vscode/pz2/lab11/MyTunes/MyTunes/Views/Song/PlaylistIndex.cshtml]
+[C:/Users/natal/VS Projects/FinalProject/MyTunes/MyTunes/Views/Song/PlaylistIndex.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU29uZ1xQbGF5bGlzdEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Oliwier/vscode/pz2/lab11/MyTunes/MyTunes/Views/User/Create.cshtml]
+[C:/Users/natal/VS Projects/FinalProject/MyTunes/MyTunes/Views/User/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Oliwier/vscode/pz2/lab11/MyTunes/MyTunes/Views/User/Delete.cshtml]
+[C:/Users/natal/VS Projects/FinalProject/MyTunes/MyTunes/Views/User/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Oliwier/vscode/pz2/lab11/MyTunes/MyTunes/Views/User/Details.cshtml]
+[C:/Users/natal/VS Projects/FinalProject/MyTunes/MyTunes/Views/User/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Oliwier/vscode/pz2/lab11/MyTunes/MyTunes/Views/User/Edit.cshtml]
+[C:/Users/natal/VS Projects/FinalProject/MyTunes/MyTunes/Views/User/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Oliwier/vscode/pz2/lab11/MyTunes/MyTunes/Views/User/Favorite.cshtml]
+[C:/Users/natal/VS Projects/FinalProject/MyTunes/MyTunes/Views/User/Favorite.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxGYXZvcml0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Oliwier/vscode/pz2/lab11/MyTunes/MyTunes/Views/User/Index.cshtml]
+[C:/Users/natal/VS Projects/FinalProject/MyTunes/MyTunes/Views/User/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Oliwier/vscode/pz2/lab11/MyTunes/MyTunes/Views/_ViewImports.cshtml]
+[C:/Users/natal/VS Projects/FinalProject/MyTunes/MyTunes/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Oliwier/vscode/pz2/lab11/MyTunes/MyTunes/Views/_ViewStart.cshtml]
+[C:/Users/natal/VS Projects/FinalProject/MyTunes/MyTunes/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Oliwier/vscode/pz2/lab11/MyTunes/MyTunes/Views/Shared/_Layout.cshtml]
+[C:/Users/natal/VS Projects/FinalProject/MyTunes/MyTunes/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-ipx39ju0rz
