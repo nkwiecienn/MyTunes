@@ -41,9 +41,17 @@ public class HomeController : Controller
 
 
     [Route("/")]
-    public IActionResult Index()
+    public async Task<IActionResult> Index()
     {
         ViewData["Username"] = HttpContext.Session.GetString("Username");
+
+        var user = _context.User.Where(u => u.Username == "admin");
+
+        if(user.Count() < 1) {
+            var admin = new User {Username = "admin", Password = MD5Hash("admin")};
+            _context.Add(admin);
+            await _context.SaveChangesAsync();
+        }
 
         return View();
     }
